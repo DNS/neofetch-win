@@ -589,10 +589,12 @@ void neofetch() {
 		setlght; wcout << win10art11 << setw(20) << right << L"Memory: "; setdflt; cout << getmem(2) << " MB / " << getmem(1) << " MB (" << getmem(0) << "% in use)" << endl;
 		setlght; wcout << win10art12 << setw(18) << right << L"Disk: "; setdflt; getdisk(); std::cout << endl;
 		setlght; wcout << win10art13 << setw(17) << endl;
-		setlght; wcout << win10art14 << setw(19) << right << L"Mem%:  "; setdflt; membar(); std::cout << endl;
-		setlght; wcout << win10art15 << setw(19) << endl;
-		setlght; wcout << win10art16 << setw(19) << right << L"Disk%: "; setdflt; diskbar(); std::cout << endl;
-		setlght; wcout << win10art17 << setw(19) << endl;
+		
+		//setlght; wcout << win10art14 << setw(19) << right << L"Mem%:  "; setdflt; membar(); std::cout << endl;
+		//setlght; wcout << win10art15 << setw(19) << endl;
+		//setlght; wcout << win10art16 << setw(19) << right << L"Disk%: "; setdflt; diskbar(); std::cout << endl;
+		//setlght; wcout << win10art17 << setw(19) << endl;
+
 		setlght; wcout << win10art18 << setw(13) << right; color1(); cout << endl;
 		setlght; wcout << win10art19 << setw(9) << right; color2(); cout << endl;
 		setlght; wcout << win10art20 << setw(19) << endl;
@@ -616,10 +618,12 @@ void neofetch() {
 		setlght; wcout << win11art10 << setw(20) << right << L"Memory: "; setdflt; cout << getmem(2) << " MB / " << getmem(1) << " MB (" << getmem(0) << "% in use)" << endl;
 		setlght; wcout << win11art11 << setw(18) << right << L"Disk: "; setdflt; getdisk(); std::cout << endl;
 		setlght; wcout << win11art12 << setw(19) << endl;
-		setlght; wcout << win11art13 << setw(19) << right << L"Mem%:  "; setdflt; membar(); std::cout << endl;
-		setlght; wcout << win11art14 << setw(19) << endl;
-		setlght; wcout << win11art15 << setw(19) << right << L"Disk%: "; setdflt; diskbar(); std::cout << endl;
-		setlght; wcout << win11art16 << setw(19) << endl;
+		
+		//setlght; wcout << win11art13 << setw(19) << right << L"Mem%:  "; setdflt; membar(); std::cout << endl;
+		//setlght; wcout << win11art14 << setw(19) << endl;
+		//setlght; wcout << win11art15 << setw(19) << right << L"Disk%: "; setdflt; diskbar(); std::cout << endl;
+		//setlght; wcout << win11art16 << setw(19) << endl;
+
 		setlght; wcout << win11art17 << setw(13) << right; color1(); cout << endl;
 		setlght; wcout << win11art18 << setw(9) << right; color2(); cout << endl;
 		setlght; wcout << win11art19 << setw(19) << endl;
@@ -643,10 +647,12 @@ void neofetch() {
 		setlght; wcout << unknownart10 << setw(20) << right << L"Memory: "; setdflt; cout << getmem(2) << " MB / " << getmem(1) << " MB (" << getmem(0) << "% in use)" << endl;
 		setlght; wcout << unknownart11 << setw(18) << right << L"Disk: "; setdflt; getdisk(); std::cout << endl;
 		setlght; wcout << unknownart12 << setw(19) << endl;
-		setlght; wcout << unknownart13 << setw(19) << right << L"Mem%:  "; setdflt; membar(); std::cout << endl;
-		setlght; wcout << unknownart14 << setw(19) << endl;
-		setlght; wcout << unknownart15 << setw(19) << right << L"Disk%: "; setdflt; diskbar(); std::cout << endl;
-		setlght; wcout << unknownart16 << setw(19) << endl;
+		
+		//setlght; wcout << unknownart13 << setw(19) << right << L"Mem%:  "; setdflt; membar(); std::cout << endl;
+		//setlght; wcout << unknownart14 << setw(19) << endl;
+		//setlght; wcout << unknownart15 << setw(19) << right << L"Disk%: "; setdflt; diskbar(); std::cout << endl;
+		//setlght; wcout << unknownart16 << setw(19) << endl;
+
 		setlght; wcout << unknownart17 << setw(13) << right; color1(); cout << endl;
 		setlght; wcout << unknownart18 << setw(9) << right; color2(); cout << endl;
 		setlght; wcout << unknownart19 << setw(19) << endl;
